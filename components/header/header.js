@@ -6,16 +6,31 @@ const Header = () => {
     <header>
       <nav>
         <div className="navbar justify-between bg-base-300">
-          <Link href="/" className="btn btn-circle text-lg">
+          <Link href="/" className="btn btn-ghost btn-circle text-lg">
             <Image src="/alexi.png" alt="alexi.png" height={24} width={24} />
           </Link>
-          <ui className="flex">
+          <ul className="flex">
             <li>
-              <Link className="btn btn-ghost" href="/cart">
-                Cart
+              <Link className="btn btn-ghost btn-circle" href="/cart">
+                <Image
+                  src="/carts.png"
+                  alt="carts.png"
+                  height={24}
+                  width={24}
+                />
               </Link>
             </li>
-          </ui>
+            <li>
+              <Link className="btn btn-ghost btn-circle" href="/signin">
+                <Image
+                  src="/profile.png"
+                  alt="profile.png"
+                  height={24}
+                  width={24}
+                />
+              </Link>
+            </li>
+          </ul>
         </div>
       </nav>
     </header>
