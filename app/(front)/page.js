@@ -1,4 +1,4 @@
-import data from "@/lib/models/data";
+import data from "@/lib/data";
 import ProductItem from "@/components/products/productItem";
 export default function Home() {
   return (
